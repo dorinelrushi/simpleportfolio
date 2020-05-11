@@ -1,0 +1,38 @@
+@media only screen and (max-width: 700px){
+ .show1{
+     display: block;
+ }  
+ 
+ .list{
+     display: none;
+ }
+
+ .quo{
+    font-size: 30px;
+    margin-top: 6px;
+  }
+}
+@media only screen and (max-width: 500px){
+    .pageDorinel{
+        width: 100%;
+        height: 390px;
+        margin: auto;
+    }   
+    .pageMartin{
+        width: 100%;
+        margin: auto;
+        height: 390px;
+
+    }   
+    .pageNathan{
+        width: 100%;
+        margin: auto;
+        height: 390px;
+    }
+    .quo{
+        font-size: 30px;
+        margin-top: -38px;
+      }
+    
+}
+

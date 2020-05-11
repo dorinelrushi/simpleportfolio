@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Hind|Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+body{
+
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+.header{
+  width: 100%;
+  height: 45px;
+  background:#2c2c2c;
+}
+.img{
+  float: left;
+  margin-left: 40px;
+  margin-top: 5.9px;
+}
+.text{
+  color: white;
+  margin-left: 26px;
+  float: left;
+  line-height: 45px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.list{
+margin-right: 100px;
+}
+.ul{
+  list-style: none;
+}
+.li{
+  float: right;
+  padding: 10px 5px;
+}
+.a{
+  color:#f0f0f0;
+  text-decoration: none;
+  padding: 6px;
+  font-family: 'Hind', sans-serif;
+  font-size: 15px;
+  
+}
+.a:hover{
+  color: rgb(67, 255, 192);
+}
+.box{
+  width: 100%;
+  height: 320px;
+  background: #111;
+  display:none;
+  animation-name: example;
+  animation-duration: 3s;
+}
+@keyframes example {
+  0%{
+    height:0px;
+  }
+  100%{
+    height: 320px;
+  }
+}
+.fa-times{
+ float: right;
+  color:white;
+  padding: 10px 10px;
+  cursor: pointer;
+  animation-name: move;
+  animation-duration: 3s;
+}
+.fa-times:hover{
+  background: red;
+}
+.list1{
+  padding: 0px;
+  margin-top: 50px;
+  animation-name: move;
+  animation-duration: 3s;
+}
+@keyframes move {
+  0%{
+    opacity: 0;
+  }
+  5%{
+    opacity: 0;  
+  }
+  10%{
+    opacity: 0;
+  }
+  20%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 0;
+  }
+  40%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  60%{
+    opacity: 0.3;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.ul1{
+  list-style: none;
+}
+.li1{
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid rgb(27, 27, 27);
+}
+.a1{
+  text-decoration: none;
+  color: white;
+  padding: 0px;
+  font-size: 20px;
+  font-family: 'Hind', sans-serif;
+  animation-name: move;
+  animation-duration: 3s;
+}
+.a1:hover{
+  color: rgb(67, 255, 192);
+}
+.fa-bars{
+float: left;
+margin-top: 5.6px;
+color: white;
+margin-right: 10px;
+cursor:pointer;
+display: none;
+margin-left: 10px;
+}
+.show1{
+  display: none;
+}
+.box123{
+  width: 100%;
+  height:480px;
+  background-image: linear-gradient(to right top, #ff3434, #ff4bab, #c38eff, #51bdff, #27d9ff);
+  background-size:cover;
+  max-width: 100%; 
+  text-align: center;
+  margin: auto;
+}
+.webd{
+  width: 800px;
+  text-align: center;
+  font-size: 44px;
+  margin: auto;
+  margin-top: 180px;
+  max-width: 100%;
+  color:rgb(255, 255, 255);
+  letter-spacing: 2px;
+}
+.about{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 35px;
+  letter-spacing: 4px;
+}
+.para{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 35px;
+}
+.pho{
+  text-align: center;
+  margin: auto;
+  margin-top: 35px;
+}
+.div{
+  text-align: center;
+}
+.project{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px;
+}
+.skills{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 35px;
+}
+.bars123{
+  text-align: center;
+  margin: auto;
+  margin-top: 35px;
+}
+.star{
+text-align: center;
+margin-top: 30px;
+font-size: 20px;
+}
+.start1{
+  text-align: center;
+margin-top: 30px;
+font-size: 20px;
+}
+.start3{
+  text-align: center;
+margin-top: 30px;
+font-size: 20px;
+}
+.start4{
+  text-align: center;
+margin-top: 30px;
+font-size: 20px;
+}
+.start35{
+  text-align: center;
+margin-top: 30px;
+font-size: 20px;
+}
+.movestar{
+  width: 100%;
+  height: 530px;
+  background:#051937;
+  margin-top: 30px;
+  color:white;
+  letter-spacing: 3px;
+}
+.page1230{
+  margin-top: 35px;
+}
+.pageDorinel{
+  width: 33.3%;
+  height: 390px;
+  background: white;
+  float: left;
+  text-align: center;
+}
+.pageMartin{
+  width: 33.3%;
+  height: 390px;
+  background: white;
+  float: left;
+  text-align: center;
+}
+.pageNathan{
+  width:33.3%;
+  height: 390px;
+  background: white;
+  float: left;
+  text-align: center;
+}
+.dr{
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.ml1{
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.nf{
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.e1{
+  text-decoration: none;
+  font-size: 20px;
+  color:black;
+
+}
+.forme{
+ text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.e2{
+  text-decoration: none;
+  font-size: 20px;
+  color:black;
+
+}
+.foryou{
+ text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.e3{
+  text-decoration: none;
+  font-size: 20px;
+  color:black;
+
+}
+.foryou1{
+ text-decoration: none;
+  font-size: 25px;
+  color:black;
+}
+.pagesteve{
+  width: 100%;
+  height: 380px;
+  margin-top: 45px;
+  float: left;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+.quotes{
+  margin: auto;
+text-align: center;
+max-width: 80%;
+}
+.quo{
+  font-size: 40px;
+  margin-top: 30px;
+}
+.endpage{
+  width: 100%;
+  height: 400px;
+  background: rgb(238, 238, 238);
+  float: left;
+  text-align: center;
+  color:#111;
+}
+.cont{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px;
+  color:#111;
+}
+.linkmo{
+  margin-top: 40px;
+}
+.top{
+  color:#111;
+  text-decoration: none;
+}
+.dori{
+  font-size: 25px;
+  color:#111;
+  text-decoration: none;
+}
+.dori:hover{
+ color: #888888;
+}
+.movedo{
+  margin-top: 68px;
+}
